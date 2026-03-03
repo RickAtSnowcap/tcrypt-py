@@ -1,0 +1,10 @@
+[project]
+name = "snowcap-tcrypt"
+version = "1.0.0"
+description = "Python decrypt support for the Snowcap Suitcase encryption format"
+requires-python = ">=3.10"
+dependencies = ["cryptography"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends._legacy:_Backend"
