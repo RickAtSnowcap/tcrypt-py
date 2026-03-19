@@ -4,7 +4,7 @@ Python decrypt support for the Snowcap Suitcase encryption format. Decrypt-only 
 
 ## What it does
 
-Decrypts AES-256-GCM encrypted values produced by the Snowcap TCrypt ecosystem. Used by Python ETL jobs and pollers (SSA, SAM) that need to read encrypted config values at runtime.
+Decrypts AES-256-GCM encrypted values produced by the Snowcap TCrypt ecosystem. Used by Python ETL jobs and database pollers that need to read encrypted config values at runtime.
 
 **Wire format:** `Base64(nonce[12] + ciphertext[n] + tag[16])`
 
